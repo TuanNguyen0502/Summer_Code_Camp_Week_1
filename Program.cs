@@ -10,32 +10,59 @@ namespace Week_1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World !");
+            double number1, number2;
+            char calculation;
+
+            Console.WriteLine("Enter the 1st number: ");
+            number1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("\nEnter the calculation: ");
+            Console.WriteLine("+ for addition\t\t- for subtraction\n* for multiplication\t/ for division\n! for factorial");
+            calculation = Console.ReadKey().KeyChar;
+
+            Console.WriteLine("\n\nEnter the 2nd number: ");
+            number2 = Convert.ToDouble(Console.ReadLine());
+
+            switch (calculation)
+            {
+                case '+':
+                    break;
+                case '-':
+                    break;
+                case '*':
+                    break;
+                case '/':
+                    break;
+                case '!':
+                    break;
+                default:
+                    break;
+            }
         }
 
-        public double Cong(double num1, double num2)
+        double Cong(double num1, double num2)
         {
-            
+            return 0;
         }
 
-        public double Tru(double num1, double num2)
+        double Tru(double num1, double num2)
         {
-
+            return 0;
         }
 
-        public double Nhan(double num1, double num2)
+        double Nhan(double num1, double num2)
         {
-
+            return 0;
         }
 
-        public double Chia(double num1, double num2)
+        double Chia(double num1, double num2)
         {
-
+            return 0;
         }
 
-        public double GiaiThua(double num1, double num2)
+        double GiaiThua(double num1, double num2)
         {
-
+            return 0;
         }
     }
 }
