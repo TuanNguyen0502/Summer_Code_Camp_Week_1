@@ -39,9 +39,9 @@ namespace Week_1
 
             }
 
-            double Cong(double num1, double num2)
+            double Cong(double number1, double number2)
             {
-                return num1 + num2;
+                return number1 + number2;
             }
 
             double Tru(double num1, double num2)
