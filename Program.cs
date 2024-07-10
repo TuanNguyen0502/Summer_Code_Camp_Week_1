@@ -10,7 +10,7 @@ namespace Week_1
     {
         public static void Main(string[] args)
         {
-            double number1, number2;
+            double number1, number2, result = 0;
             char calculation;
 
             Console.WriteLine("Enter the 1st number: ");
@@ -26,41 +26,48 @@ namespace Week_1
             switch (calculation)
             {
                 case '+':
+                    result = Cong(number1, number2);
                     break;
                 case '-':
+                    result = Tru(number1, number2);
                     break;
                 case '*':
+                    result = Nhan(number1, number2);
                     break;
                 case '/':
+                    result = Chia(number1, number2);
                     break;
                 case '!':
+                    result = GiaiThua(number1, number2);
                     break;
                 default:
                     break;
             }
+
+            Console.WriteLine($"\n\nResult: {result}");
         }
 
-        double Cong(double num1, double num2)
+        static double Cong(double num1, double num2)
         {
             return 0;
         }
 
-        double Tru(double num1, double num2)
+        static double Tru(double num1, double num2)
         {
             return 0;
         }
 
-        double Nhan(double num1, double num2)
+        static double Nhan(double num1, double num2)
         {
             return 0;
         }
 
-        double Chia(double num1, double num2)
+        static double Chia(double num1, double num2)
         {
             return 0;
         }
 
-        double GiaiThua(double num1, double num2)
+        static double GiaiThua(double num1, double num2)
         {
             return 0;
         }
