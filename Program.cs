@@ -33,36 +33,36 @@ namespace Week_1
                     break;
                 case '/':
                     break;
-                default:
-                    Console.WriteLine();
+                case '!':
                     break;
-
+                default:
+                    break;
             }
+        }
 
-            double Cong(double num1, double num2)
-            {
-                return num1 + num2;
-            }
+        double Cong(double num1, double num2)
+        {
+            return 0;
+        }
 
-            double Tru(double num1, double num2)
-            {
-                return num1 - num2;
-            }
+        double Tru(double num1, double num2)
+        {
+            return 0;
+        }
 
-            double Nhan(double num1, double num2)
-            {
-                return num1 + num2;
-            }
+        double Nhan(double num1, double num2)
+        {
+            return 0;
+        }
 
-            double Chia(double num1, double num2)
-            {
-                return num1 + num2;
-            }
+        double Chia(double num1, double num2)
+        {
+            return 0;
+        }
 
-            double GiaiThua(double num1, double num2)
-            {
-                return num1 + num2;
-            }
+        double GiaiThua(double num1, double num2)
+        {
+            return 0;
         }
     }
 }
