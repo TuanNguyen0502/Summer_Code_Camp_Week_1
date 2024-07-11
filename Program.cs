@@ -33,6 +33,7 @@ namespace Week_1
                     break;
                 case '*':
                     result = Nhan(number1, number2);
+                    Console.WriteLine(number1 + "*" + number2 + " = " + result);
                     break;
                 case '/':
                     result = Chia(number1, number2);
