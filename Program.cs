@@ -38,13 +38,13 @@ namespace Week_1
                     result = Chia(number1, number2);
                     break;
                 case '!':
-                    result = GiaiThua(number1, number2);
+                    result = GiaiThua(number1);
                     break;
                 default:
                     break;
             }
 
-            Console.WriteLine($"\n\nResult: {result}");
+            Console.WriteLine($"\n\nResult of {number1} and {number2} = {result}");
         }
 
         static double Cong(double num1, double num2)
@@ -67,9 +67,15 @@ namespace Week_1
             return 0;
         }
 
-        static double GiaiThua(double num1, double num2)
+        static double GiaiThua(double num1)
         {
-            return 0;
+            int num = Convert.ToInt32(num1);
+            long result = 1;
+            for (int i = num; i >= 1; i--)
+            {
+                result *= i;
+            }
+            return result;
         }
     }
 }
