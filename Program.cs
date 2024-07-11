@@ -69,7 +69,13 @@ namespace Week_1
 
         static double GiaiThua(double num1, double num2)
         {
-            return 0;
+            int num = Convert.ToInt32(num1);
+            long result = 1;
+            for (int i = num; i >= 1; i--)
+            {
+                result *= i;
+            }
+            return result;
         }
     }
 }
