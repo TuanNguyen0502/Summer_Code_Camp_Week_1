@@ -76,7 +76,6 @@ namespace Week_1
                 result *= i;
             }
             return result;
-
         }
     }
 }
