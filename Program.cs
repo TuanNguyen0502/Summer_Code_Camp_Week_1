@@ -33,6 +33,7 @@ namespace Week_1
                     break;
                 case '*':
                     result = Nhan(number1, number2);
+                    Console.WriteLine(number1 + "*" + number2 + " = " + result);
                     break;
                 case '/':
                     result = Chia(number1, number2);
@@ -59,7 +60,7 @@ namespace Week_1
 
         static double Nhan(double num1, double num2)
         {
-            return 0;
+            return num1*num2;
         }
 
         static double Chia(double num1, double num2)
