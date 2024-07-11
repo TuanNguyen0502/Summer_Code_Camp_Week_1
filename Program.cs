@@ -38,7 +38,7 @@ namespace Week_1
                     result = Chia(number1, number2);
                     break;
                 case '!':
-                    result = GiaiThua(number1, number2);
+                    result = GiaiThua(number1);
                     break;
                 default:
                     break;
@@ -67,7 +67,7 @@ namespace Week_1
             return 0;
         }
 
-        static double GiaiThua(double num1, double num2)
+        static double GiaiThua(double num1)
         {
             int num = Convert.ToInt32(num1);
             long result = 1;
@@ -76,6 +76,7 @@ namespace Week_1
                 result *= i;
             }
             return result;
+
         }
     }
 }
