@@ -44,7 +44,7 @@ namespace Week_1
                     break;
             }
 
-            Console.WriteLine($"\n\nResult: {result}");
+            Console.WriteLine($"\n\nResult of {number1} and {number2} = {result}");
         }
 
         static double Cong(double num1, double num2)
