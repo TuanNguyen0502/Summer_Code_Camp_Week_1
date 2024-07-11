@@ -59,7 +59,7 @@ namespace Week_1
 
         static double Nhan(double num1, double num2)
         {
-            return 0;
+            return num1*num2;
         }
 
         static double Chia(double num1, double num2)
